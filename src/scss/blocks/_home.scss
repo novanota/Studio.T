@@ -1,0 +1,9 @@
+.home {
+    padding: 50px 0 clamp(3.125rem, -0.37rem + 17.48vw, 14.375rem) 0;
+
+    &__title {
+        text-align: center;
+        font-size: clamp(5rem, -0.437rem + 27.18vw, 22.5rem);
+        font-weight: 300;
+    }
+}

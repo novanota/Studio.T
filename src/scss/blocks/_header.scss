@@ -1,9 +1,52 @@
 .header {
-	padding: 50px 0;
+	&__container {
+		padding: 0 15px;
+		max-width: 1450px;
+		margin: 0 auto;
 
-	&__row {
+		border-bottom: 1px #8A8474 solid;
+	}
+
+    &__row {
+		padding: clamp(0.5rem, 0.364rem + 0.68vw, 0.938rem) 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__nav {
 		display: flex;
-		justify-content: space-between;
+		align-items: center;
+		gap: 35px;
+    }
+
+	&__themes {
+		display: flex;
 		align-items: center;
 	}
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+		@media (max-width: 821.98px) {
+			gap: 20px;
+		}
+
+		@media (max-width: 676.98px) {
+			display: none;
+		}
+    }
+
+    &__link {
+		color: rgb(243, 243, 243);
+        font-size: 22px;
+        line-height: 27px;
+        letter-spacing: 0px;
+
+		@media (max-width: 821.98px) {
+			font-size: 20px;
+		}
+    }
 }
