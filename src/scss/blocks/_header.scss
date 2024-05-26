@@ -1,11 +1,4 @@
 .header {
-	&__container {
-		padding: 0 15px;
-		max-width: 1450px;
-		margin: 0 auto;
-
-		border-bottom: 1px #8A8474 solid;
-	}
 
     &__row {
 		padding: clamp(0.5rem, 0.364rem + 0.68vw, 0.938rem) 0;

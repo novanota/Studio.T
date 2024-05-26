@@ -4,6 +4,14 @@
 	margin: 0 auto;
 }
 
+[class *= __container] {
+	padding: 0 $container-padding;
+	max-width: 1450px;
+	margin: 0 auto;
+
+	border-bottom: 1px #8A8474 solid;
+}
+
 .container-right {
 	/* overflow-x: hidden; */
 	padding-left: calc(
