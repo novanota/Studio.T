@@ -1,6 +1,4 @@
 .about {
-    padding-bottom: 50px;
-
     &__inner {
         display: flex;
         justify-content: space-between;
@@ -8,9 +6,13 @@
         gap: 20px;
 
         @media (max-width: 902.98px) {
-            flex-direction: column;
-            gap: 0;
+            flex-wrap: wrap;
+            gap: 0px;
             justify-content: start;
+        }
+
+        @media (max-width: 473.98px) {
+            flex-direction: column;
         }
     }
 
@@ -21,6 +23,11 @@
 
         @media (max-width: 902.98px) {
             margin-bottom: 32px;
+            margin-right: 20px;
+        }
+
+        @media (max-width: 473.98px) {
+            margin-right: 0;
         }
     }
 
