@@ -1,0 +1,43 @@
+.how {
+    &__inner {
+        padding-top: 40px;
+        padding-bottom: clamp(3.125rem, 0.293rem + 14.16vw, 13.125rem);
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+
+        @media (max-width: 869.98px) {
+            flex-wrap: wrap;
+            justify-content: start;
+            gap: clamp(0.938rem, 0.318rem + 3.1vw, 3.125rem);
+        }
+    }
+
+    &__title {
+        color: #8a8474;
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: clamp(0.313rem, -0.661rem + 4.87vw, 3.75rem);
+
+        @media (max-width: 869.98px) {
+            flex-wrap: wrap;
+        }
+    }
+
+    &__item {
+        color: #f3f3f3;
+        font-weight: 300;
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    &__link {
+    }
+}
