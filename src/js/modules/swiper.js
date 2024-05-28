@@ -1,7 +1,11 @@
 export const swiper = new Swiper(".swiper", {
     direction: "horizontal",
-    // loop: true,
+    loop: true,
     slidesPerView: 2.5,
     spaceBetween: 14,
     grabCursor: true,
+
+    keyboard: {
+        enabled: true,
+    },
 });

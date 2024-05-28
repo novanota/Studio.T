@@ -27,15 +27,28 @@
         font-size: 23px;
         font-weight: 300;
         line-height: 27px;
+
+        transition: all .3s ease;
+
+        &:hover {
+            color: #8a8474;
+        }
+    }
+
+    &__item-image {
+        border-radius: 20px;
+        overflow: hidden;
     }
 
     &__item-img {
-        border-radius: 20px;
+        transition: all 0.3s ease;
 
-        
+        &:hover {
+            transform: scale(1.1);
+        }
+
         @media (max-width: 525.98px) {
             width: 100%;
         }
     }
 }
-

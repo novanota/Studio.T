@@ -26,6 +26,12 @@
 	line-height: 27px;
 	border: 1px solid #8a8474;
 	border-radius: 50px;
+	transition: all .3s ease;
+
+	&:hover {
+		color: #000;
+		background: #fff;
+	}
 }
 
 .mobile-none {

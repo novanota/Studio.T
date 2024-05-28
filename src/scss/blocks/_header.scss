@@ -37,6 +37,11 @@
         font-size: 22px;
         line-height: 27px;
         letter-spacing: 0px;
+		transition: all .3s ease;
+
+		&:hover {
+			color: #8a8474;
+		}
 
 		@media (max-width: 821.98px) {
 			font-size: 20px;

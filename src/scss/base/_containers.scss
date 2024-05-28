@@ -10,6 +10,10 @@
 	margin: 0 auto;
 
 	border-bottom: 1px #8A8474 solid;
+
+	@media (max-width: 874.98px) {
+		border-bottom: none;
+	}
 }
 
 .container-right {
