@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Studio.T</title>
-		<link rel="stylesheet" href="./css/main.css" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Studio.T</title>
+        <link rel="stylesheet" href="./css/main.css" />
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		@@include('blocks/header.html')
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+            rel="stylesheet"
+        />
 
-		<main class="main">
-			@@include('blocks/home.html')
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+    </head>
+    <body>
+        @@include('blocks/header.html')
+
+        <main class="main">
+            @@include('blocks/home.html') 
 			@@include('blocks/about.html')
-			@@include('blocks/working.html')
+            @@include('blocks/working.html') 
 			@@include('blocks/work.html')
-			@@include('blocks/vision.html')
+            @@include('blocks/vision.html') 
 			@@include('blocks/how.html')
-			@@include('blocks/impact.html')
-		</main>
+            @@include('blocks/impact.html')
+			@@include('blocks/story.html')
+			@@include('blocks/contact.html')
+        </main>
 
-		<!-- @@include('blocks/footer.html') -->
-		<script src="./js/index.bundle.js"></script>
-	</body>
+        <!-- @@include('blocks/footer.html') -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="./js/index.bundle.js"></script>
+    </body>
 </html>
