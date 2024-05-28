@@ -27,3 +27,15 @@
 	border: 1px solid #8a8474;
 	border-radius: 50px;
 }
+
+.mobile-none {
+    @media (max-width: 874.98px) {
+        display: none !important;
+    }
+}
+
+.table-none {
+    @media (max-width: 525.98px) {
+        display: none !important;
+    }
+}
