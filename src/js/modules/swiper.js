@@ -1,8 +1,7 @@
 export const swiper = new Swiper(".swiper", {
     direction: "horizontal",
-    loop: true,
-    slidesPerView: 2.5,
-    spaceBetween: 14,
+    slidesPerView: 2.3,
+    spaceBetween: 20,
     grabCursor: true,
 
     keyboard: {
