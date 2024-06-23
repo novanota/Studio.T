@@ -137,6 +137,11 @@
 		font-size: 23px;
 		font-weight: 300;
 		line-height: 27px;
+		transition: all .3s ease;
+
+		&:hover {
+			color: #8a8474;
+		}
 
 		@media (max-width: 804.98px) {
 			font-size: clamp(1.313rem, 1.195rem + 0.48vw, 1.438rem);

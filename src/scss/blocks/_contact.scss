@@ -61,6 +61,11 @@
         font-size: 23px;
         font-weight: 300;
         line-height: 27px;
+        transition: all .3s ease;
+
+        &:hover {
+            color: #8a8474;
+        }
     }
 
     &__link {
