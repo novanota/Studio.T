@@ -5,4 +5,5 @@ import { homeAnimation } from './modules/animations/home.js';
 import { aboutAnimation } from './modules/animations/about.js';
 import { workingAnimation } from './modules/animations/working.js';
 import { workAnimation } from './modules/animations/work.js';
+import { visionAnimation } from './modules/animations/vision.js';
 mobileNav();
