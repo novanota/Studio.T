@@ -9,4 +9,5 @@ import { visionAnimation } from './modules/animations/vision.js';
 import { howAnimation } from './modules/animations/how.js';
 import { impactAnimation } from './modules/animations/impact.js';
 import { storyAnimation } from './modules/animations/story.js';
+import { contactAnimation } from './modules/animations/contact.js';
 mobileNav();
