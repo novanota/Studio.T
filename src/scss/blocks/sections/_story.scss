@@ -18,12 +18,11 @@
     }
 
     &-img {
-        max-height: 400px;
+        height: 486px;
         object-position: center;
         object-fit: cover;
         width: 100%;
-        height: 100%;
-        border-radius: 10px;
+        border-radius: 15px;
 
         @media (max-width: 708.98px) {
             max-width: auto !important;
