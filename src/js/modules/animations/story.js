@@ -17,16 +17,6 @@ export function storyAnimation() {
         easing: 'ease-in-out'
     });
 
-    ScrollReveal().reveal('.swiper-slide', {
-        origin: 'bottom',
-        distance: '20px',
-        duration: 800,
-        delay: 400,
-        opacity: 0,
-        easing: 'ease-in-out',
-        interval: 200
-    });
-
     ScrollReveal().reveal('.story-about__goal', {
         origin: 'bottom',
         distance: '20px',
