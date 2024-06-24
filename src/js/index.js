@@ -11,4 +11,6 @@ import { impactAnimation } from './modules/animations/impact.js';
 import { storyAnimation } from './modules/animations/story.js';
 import { contactAnimation } from './modules/animations/contact.js';
 import { footerAnimation } from './modules/animations/footer.js';
+import { initTheme } from './modules/theme.js';
 mobileNav();
+initTheme();

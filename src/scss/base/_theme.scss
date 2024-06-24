@@ -1,0 +1,39 @@
+@import './vars'; 
+
+[data-theme="light"] {
+    color-scheme: light;
+
+    --background: var(--background-light);
+    --text-color: var(--text-color-light);
+    --section-top-link: var(--section-link-light);
+    --section-border-bottom: var(--section-border-bottom-light);
+    --section-top-link-hover: var(--section-top-link-hover-light);
+    --section-top-link-bg-hover: var(--section-top-link-bg-hover-light);
+    --menu-icon-color: var(--menu-icon-color-light);
+    --mobile-menu-bg: var(--mobile-menu-bg-color-light);
+    --mobile-menu-links-color: var(--mobile-menu-link-color-light);
+}
+
+[data-theme="dark"] {
+    color-scheme: dark;
+
+    --background: var(--background-dark);
+    --text-color: var(--text-color-dark);
+    --section-top-link: var(--section-link-dark);
+    --section-border-bottom: var(--section-border-bottom-dark);
+    --section-top-link-hover: var(--section-top-link-hover-dark);
+    --section-top-link-bg-hover: var(--section-top-link-bg-hover-dark);
+    --menu-icon-color: var(--menu-icon-color-dark);
+    --mobile-menu-bg: var(--mobile-menu-bg-color-dark);
+    --mobile-menu-links-color: var(--mobile-menu-link-color-dark);
+}
+
+.theme-btn { transition: all .3s ease }
+
+[data-theme='dark'] .theme-btn .dark-icon,
+.theme-btn .light-icon { display: none; }
+
+[data-theme='dark'] .theme-btn .light-icon { display: block; }
+
+[data-theme='dark'] .theme-btn { transform: rotate(-180deg); }
+

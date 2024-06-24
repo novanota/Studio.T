@@ -11,7 +11,7 @@
         --line-height: 3px;
         --spacing: 6px;
 
-        --color: #fff; /* Set color to white */
+        --color: var(--menu-icon-color); /* Set color to white */
         --radius: 6px;
 
         /* Fixed height and width */
@@ -31,7 +31,7 @@
         position: relative;
         width: var(--width);
         height: var(--line-height);
-        background-color: var(--color); /* Use --color variable */
+        background-color: var(--menu-icon-color); /* Use --color variable */
         border-radius: var(--radius);
     }
 
@@ -68,7 +68,7 @@
 
     .nav-icon.nav-icon--active::before,
     .nav-icon.nav-icon--active::after {
-        background-color: var(--color); /* Use --color variable */
+        background-color: var(--menu-icon-color); /* Use --color variable */
         top: 0;
         transition: top var(--time) linear,
             transform var(--time) ease-in var(--time);

@@ -19,7 +19,7 @@
     }
 
     &__label {
-        grid-column-start: 0;
+        color: var(--section-top-link);
         grid-column-end: 1;
         width: fit-content;
         align-self: start;
@@ -34,7 +34,7 @@
         max-width: 390px;
         grid-column-start: 1;
         grid-column-end: 3;
-        color: #f3f3f3;
+        color: var(--text-color);
         font-size: 46px;
         font-weight: 300;
         line-height: 64px;
@@ -51,7 +51,7 @@
     &__text {
         grid-column-start: 3;
         grid-column-end: 6;
-        color: #f3f3f3;
+        color: var(--text-color);
         font-size: 35px;
         font-weight: 300;
         line-height: 49px;
@@ -95,8 +95,8 @@
     &__item-text {
         grid-column-start: 4;
         grid-column-end: 7;
+        color: var(--text-color);
 
-        color: #f3f3f3;
         font-size: 21px;
         font-weight: 300;
         line-height: 27px;
@@ -113,21 +113,21 @@
     }
 
     &__item-name {
-        color: #f3f3f3;
+        color: var(--text-color);
         font-size: 23px;
         font-weight: 300;
         line-height: 27px;
     }
 
     &__item-where {
-        color: #f3f3f3;
+        color: var(--text-color);
         font-size: 23px;
         font-weight: 300;
         line-height: 27px;
     }
 
     &__item-position {
-        color: #f3f3f3;
+        color: var(--text-color);
         font-size: 23px;
         font-weight: 300;
         line-height: 27px;

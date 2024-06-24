@@ -41,7 +41,7 @@
 
     &__title {
         margin-top: 15px;
-        color: #f3f3f3;
+        color: var(--text-color);
         font-size: clamp(2rem, 0.02rem + 8.13vw, 6.875rem);
         font-weight: 300;
     }
@@ -61,7 +61,7 @@
     }
 
     &__text {
-        color: #f3f3f3;
+        color: var(--text-color);
         font-weight: 300;
     }
 

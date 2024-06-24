@@ -3,9 +3,34 @@ $container-padding: 15px;
 
 $font-main: "Nunito Sans", sans-serif;
 
-$laptop-size: 1199px;
-$tablet-size: 959px;
-$mobile-size: 599px;
+:root {
+    --background-dark: #000;
+    --background-light: #fff;
+    
+    --text-color-dark: #f3f3f3;
+    --text-color-light: #000;
 
-// .dark {
-// }
+    --section-link-dark: #8a8474;
+    --section-link-light: #3b3a37;
+
+    --section-link-hover-dark: #8a8474;
+    --section-link-hover-light: #2b2626;
+
+    --section-top-link-hover-dark: #000;
+    --section-top-link-hover-light: #fff;
+
+    --section-top-link-bg-hover-dark: #fff;
+    --section-top-link-bg-hover-light: #000;
+
+    --section-border-bottom-dark: #8a8474;
+    --section-border-bottom-light: #000;
+
+    --menu-icon-color-dark: #fff;
+    --menu-icon-color-light: #000;
+
+    --mobile-menu-bg-color-dark: #000;
+    --mobile-menu-bg-color-light: #fff;
+
+    --mobile-menu-link-color-dark: #fff;
+    --mobile-menu-link-color-light: #000;
+}

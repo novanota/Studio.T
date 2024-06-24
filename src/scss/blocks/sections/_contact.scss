@@ -21,7 +21,7 @@
     }
 
     &__title {
-        color: #f3f3f3;
+        color: var(--text-color);
         font-size: clamp(2.625rem, 2.498rem + 0.52vw, 2.938rem);
         font-weight: 300;
         line-height: 61px;
@@ -33,7 +33,7 @@
 
     &__text {
         max-width: 345px;
-        color: #f3f3f3;
+        color: var(--text-color);
         font-size: 23px;
         font-weight: 300;
         line-height: 27px;
@@ -50,14 +50,14 @@
     }
 
     &__email-title {
-        color: #f3f3f3;
+        color: var(--text-color);
         font-size: 23px;
         font-weight: 300;
         line-height: 27px;
     }
 
     &__email-link {
-        color: #f3f3f3;
+        color: var(--text-color);
         font-size: 23px;
         font-weight: 300;
         line-height: 27px;

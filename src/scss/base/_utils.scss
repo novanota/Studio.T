@@ -20,17 +20,17 @@
 }
 
 .link {
-	padding: 6px 12px 6px 17px;
-	color: #8a8474;
+	padding: 6px 14px;
+	color: var(--section-top-link);
 	font-size: 23px;
 	line-height: 27px;
-	border: 1px solid #8a8474;
+	border: 1px solid var(--section-top-link);
 	border-radius: 50px;
 	transition: all .3s ease;
 
 	&:hover {
-		color: #000;
-		background: #fff;
+		color: var(--section-top-link-hover);
+		background: var(--section-top-link-bg-hover);
 	}
 }
 

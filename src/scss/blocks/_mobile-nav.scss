@@ -13,7 +13,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     // background: linear-gradient(209deg, #4287b3 -17.38%, #133f6b 78.4%), #276195;
-    background: rgb(0, 0, 0);
+    background: var(--mobile-menu-bg);
     transition: all 0.2s ease-in;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .mobile-nav a {
-    color: #fff;
+    color: var(--mobile-menu-links-color);
 }
 
 .mobile-nav__list {

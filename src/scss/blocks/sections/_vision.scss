@@ -6,11 +6,15 @@
 
     &__text {
         margin-top: 25px;
-        color: #f3f3f3;
+        color: var(--text-color);
         font-size: clamp(1.25rem, 0.861rem + 1.95vw, 2.625rem);
         font-weight: 300;
         line-height: clamp(1.938rem, 1.389rem + 2.74vw, 3.875rem);
-        margin-bottom: clamp(5rem, 4.292rem + 3.54vw, 7.5rem);
+        margin-bottom: clamp(3.125rem, 1.886rem + 6.19vw, 7.5rem);
+    }
+
+    &__link {
+        color: var(--section-top-link);
     }
 
     &__items {
@@ -61,7 +65,7 @@
     }
 
     &__item-title {
-        color: rgb(243, 243, 243);
+        color: var(--text-color);
         font-size: clamp(3.875rem, 2.238rem + 8.18vw, 9.313rem);
         line-height: clamp(3.75rem, 2.621rem + 5.64vw, 7.5rem);
     }
@@ -74,7 +78,7 @@
     }
 
     &__item-text {
-        color: #f3f3f3;
+        color: var(--text-color);
         font-size: clamp(1rem, 0.737rem + 1.32vw, 1.875rem);
         font-weight: 300;
         line-height: 26px;

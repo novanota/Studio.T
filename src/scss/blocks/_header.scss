@@ -1,5 +1,4 @@
 .header {
-
     &__row {
 		padding: clamp(0.5rem, 0.364rem + 0.68vw, 0.938rem) 0;
         display: flex;
@@ -33,18 +32,25 @@
     }
 
     &__link {
-		color: rgb(243, 243, 243);
+		color: var(--text-color);
         font-size: 22px;
         line-height: 27px;
         letter-spacing: 0px;
-		transition: all .3s ease;
+        transition: all .3s ease;
 
-		&:hover {
-			color: #8a8474;
-		}
+        &:hover {
+            color: #8a8474; 
+        }
 
-		@media (max-width: 821.98px) {
-			font-size: 20px;
-		}
+        @media (max-width: 821.98px) {
+            font-size: 20px;
+        }
+    }
+
+
+    &__actions {
+        display: flex;
+        align-items: center;
+        gap: 20px;
     }
 }

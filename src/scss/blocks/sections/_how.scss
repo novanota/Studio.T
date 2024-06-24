@@ -16,7 +16,7 @@
     }
 
     &__title {
-        color: #8a8474;
+        color: var(--section-top-link);
         font-size: 23px;
         line-height: 27px;
     }
@@ -32,7 +32,7 @@
     }
 
     &__item {
-        color: #f3f3f3;
+        color: var(--text-color);
         font-weight: 300;
         font-size: 23px;
         line-height: 27px;

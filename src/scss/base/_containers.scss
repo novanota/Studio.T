@@ -9,7 +9,7 @@
 	max-width: 1450px;
 	margin: 0 auto;
 
-	border-bottom: 1px #8A8474 solid;
+	border-bottom: 1px var(--section-border-bottom) solid;
 
 	@media (max-width: 874.98px) {
 		border-bottom: none;
